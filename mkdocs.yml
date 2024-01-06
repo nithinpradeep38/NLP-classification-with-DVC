@@ -1,5 +1,5 @@
 # Project information
-site_name: REPO_NAME_OR_SITE_NAME
+site_name: NLP-classification-with-DVC
 # defeine TOC or order of website-
 nav:
   - Home: index.md
@@ -8,8 +8,8 @@ site_author: Nithin Pradeep
 site_description: >-
   DESCRIPTION
 # Repository
-repo_name: nithinpradeep38/REPO_NAME
-repo_url: https://github.com/nithinpradeep38/REPO_NAME
+repo_name: nithinpradeep38/NLP-classification-with-DVC
+repo_url: https://github.com/nithinpradeep38/NLP-classification-with-DVC
 
 # Configuration
 theme:
