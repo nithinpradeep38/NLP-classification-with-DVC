@@ -1,0 +1,20 @@
+[2024-01-06 20:45:53,899: INFO: stage_01_prepare_data]: 
+********************
+[2024-01-06 20:45:53,899: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
+[2024-01-06 20:45:53,901: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-06 20:45:53,901: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-06 20:45:53,901: ERROR: stage_01_prepare_data]: 'PREPARED DATA'
+Traceback (most recent call last):
+  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_01_prepare_data.py", line 48, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_01_prepare_data.py", line 35, in main
+    prepare_data_dir_path= os.path.join(artifacts["ARTIFACTS_DIR"], artifacts["PREPARED DATA"])
+KeyError: 'PREPARED DATA'
+[2024-01-06 20:46:16,743: INFO: stage_01_prepare_data]: 
+********************
+[2024-01-06 20:46:16,743: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
+[2024-01-06 20:46:16,744: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-06 20:46:16,745: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-06 20:46:16,745: INFO: common]: created directory at: artifacts/prepared
+[2024-01-06 20:46:16,745: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
+
