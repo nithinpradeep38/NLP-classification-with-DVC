@@ -18,3 +18,11 @@ KeyError: 'PREPARED DATA'
 [2024-01-06 20:46:16,745: INFO: common]: created directory at: artifacts/prepared
 [2024-01-06 20:46:16,745: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
 
+[2024-01-06 22:26:18,481: INFO: stage_01_prepare_data]: 
+********************
+[2024-01-06 22:26:18,481: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
+[2024-01-06 22:26:18,483: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-06 22:26:18,483: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-06 22:26:18,483: INFO: common]: created directory at: artifacts/prepared
+[2024-01-06 22:26:19,395: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
+
