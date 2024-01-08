@@ -110,3 +110,13 @@ TypeError: list indices must be integers or slices, not str
 [2024-01-07 22:02:51,408: INFO: common]: json file saved at: roc.json
 [2024-01-07 22:02:51,408: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
 
+[2024-01-07 22:05:46,586: INFO: stage_04_evaluate]: 
+********************
+[2024-01-07 22:05:46,586: INFO: stage_04_evaluate]: >>>>> stage Evaluation started <<<<<
+[2024-01-07 22:05:46,587: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 22:05:46,588: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 22:05:46,819: INFO: common]: json file saved at: scores.json
+[2024-01-07 22:05:46,826: INFO: common]: json file saved at: prc.json
+[2024-01-07 22:05:46,833: INFO: common]: json file saved at: roc.json
+[2024-01-07 22:05:46,834: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
+
