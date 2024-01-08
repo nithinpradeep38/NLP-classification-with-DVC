@@ -44,3 +44,15 @@
 [2024-01-07 19:28:48,423: INFO: stage_03_train]: Saved our model at artifacts/model/model.pkl
 [2024-01-07 19:28:48,424: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
 
+[2024-01-07 19:41:46,580: INFO: stage_03_train]: 
+********************
+[2024-01-07 19:41:46,580: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2024-01-07 19:41:46,582: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 19:41:46,582: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 19:41:46,582: INFO: common]: created directory at: artifacts/model
+[2024-01-07 19:41:46,592: INFO: stage_03_train]: Input matrix size: (17536, 2502)
+[2024-01-07 19:41:46,592: INFO: stage_03_train]: X matrix size: (17536, 2500)
+[2024-01-07 19:41:46,592: INFO: stage_03_train]: Y matrix size: (17536,)
+[2024-01-07 19:41:49,420: INFO: stage_03_train]: Saved our model at artifacts/model/model.pkl
+[2024-01-07 19:41:49,421: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
