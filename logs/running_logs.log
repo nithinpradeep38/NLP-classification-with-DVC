@@ -1,114 +1,14 @@
-[2024-01-06 20:45:53,899: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-06 20:45:53,899: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-06 20:45:53,901: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-06 20:45:53,901: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-06 20:45:53,901: ERROR: stage_01_prepare_data]: 'PREPARED DATA'
-Traceback (most recent call last):
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_01_prepare_data.py", line 48, in <module>
-    main(config_path=parsed_args.config, params_path=parsed_args.params)
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_01_prepare_data.py", line 35, in main
-    prepare_data_dir_path= os.path.join(artifacts["ARTIFACTS_DIR"], artifacts["PREPARED DATA"])
-KeyError: 'PREPARED DATA'
-[2024-01-06 20:46:16,743: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-06 20:46:16,743: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-06 20:46:16,744: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-06 20:46:16,745: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-06 20:46:16,745: INFO: common]: created directory at: artifacts/prepared
-[2024-01-06 20:46:16,745: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
 
-[2024-01-06 22:26:18,481: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-06 22:26:18,481: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-06 22:26:18,483: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-06 22:26:18,483: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-06 22:26:18,483: INFO: common]: created directory at: artifacts/prepared
-[2024-01-06 22:26:19,395: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
 
-[2024-01-07 00:15:27,321: INFO: stage_02_feature_extraction]: 
+[2024-01-07 18:38:00,899: INFO: stage_02_feature_extraction]: 
 ********************
-[2024-01-07 00:15:27,321: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
-[2024-01-07 00:15:27,322: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:15:27,322: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:15:27,323: INFO: common]: created directory at: artifacts/features
-[2024-01-07 00:15:27,428: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
-[2024-01-07 00:15:27,429: ERROR: stage_02_feature_extraction]: 'NoneType' object has no attribute 'text'
-Traceback (most recent call last):
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 75, in <module>
-    main(config_path=parsed_args.config, params_path=parsed_args.params)
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 44, in main
-    train_words= np.array(df_train.text.str.lower().values.astype("U"))
-AttributeError: 'NoneType' object has no attribute 'text'
-[2024-01-07 00:18:35,059: INFO: stage_02_feature_extraction]: 
-********************
-[2024-01-07 00:18:35,059: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
-[2024-01-07 00:18:35,060: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:18:35,060: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:18:35,060: INFO: common]: created directory at: artifacts/features
-[2024-01-07 00:18:35,162: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17535, 3) is read.
-[2024-01-07 00:18:35,163: ERROR: stage_02_feature_extraction]: 'NoneType' object has no attribute 'text'
-Traceback (most recent call last):
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 75, in <module>
-    main(config_path=parsed_args.config, params_path=parsed_args.params)
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 44, in main
-    train_words= np.array(df_train.text.str.lower().values.astype("U"))
-AttributeError: 'NoneType' object has no attribute 'text'
-[2024-01-07 00:19:02,951: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-07 00:19:02,951: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-07 00:19:02,952: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:19:02,953: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:19:02,953: INFO: common]: created directory at: artifacts/prepared
-[2024-01-07 00:19:03,864: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
-
-[2024-01-07 00:19:12,201: INFO: stage_02_feature_extraction]: 
-********************
-[2024-01-07 00:19:12,201: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
-[2024-01-07 00:19:12,202: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:19:12,202: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:19:12,202: INFO: common]: created directory at: artifacts/features
-[2024-01-07 00:19:12,309: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
-[2024-01-07 00:19:12,310: ERROR: stage_02_feature_extraction]: 'NoneType' object has no attribute 'text'
-Traceback (most recent call last):
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 75, in <module>
-    main(config_path=parsed_args.config, params_path=parsed_args.params)
-  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_02_feature_extraction.py", line 44, in main
-    train_words= np.array(df_train.text.str.lower().values.astype("U"))
-AttributeError: 'NoneType' object has no attribute 'text'
-[2024-01-07 00:32:16,762: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-07 00:32:16,762: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-07 00:32:16,763: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:32:16,763: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:32:16,763: INFO: common]: created directory at: artifacts/prepared
-[2024-01-07 00:32:17,672: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
-
-[2024-01-07 00:32:22,240: INFO: stage_02_feature_extraction]: 
-********************
-[2024-01-07 00:32:22,240: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
-[2024-01-07 00:32:22,241: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:32:22,242: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:32:22,242: INFO: common]: created directory at: artifacts/features
-[2024-01-07 00:32:22,345: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
-[2024-01-07 00:32:28,493: INFO: common]: The input data frame artifacts/prepared/test.tsv of size (7464, 3) is read.
-[2024-01-07 00:32:29,706: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction completed!<<<<<
-
-[2024-01-07 00:48:46,628: INFO: stage_01_prepare_data]: 
-********************
-[2024-01-07 00:48:46,628: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
-[2024-01-07 00:48:46,629: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:48:46,630: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:48:46,630: INFO: common]: created directory at: artifacts/prepared
-[2024-01-07 00:48:47,528: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
-
-[2024-01-07 00:48:51,866: INFO: stage_02_feature_extraction]: 
-********************
-[2024-01-07 00:48:51,866: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
-[2024-01-07 00:48:51,867: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2024-01-07 00:48:51,867: INFO: common]: yaml file: params.yaml loaded successfully
-[2024-01-07 00:48:51,867: INFO: common]: created directory at: artifacts/features
-[2024-01-07 00:48:51,971: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
-[2024-01-07 00:48:58,044: INFO: common]: The input data frame artifacts/prepared/test.tsv of size (7464, 3) is read.
-[2024-01-07 00:48:59,053: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction completed!<<<<<
+[2024-01-07 18:38:00,899: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
+[2024-01-07 18:38:00,901: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 18:38:00,901: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 18:38:00,901: INFO: common]: created directory at: artifacts/features
+[2024-01-07 18:38:01,053: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
+[2024-01-07 18:38:10,678: INFO: data_mgmt]: The output matrix saved at artifacts/features/train.pkl of shape: (17536, 2502)
+[2024-01-07 18:38:10,753: INFO: common]: The input data frame artifacts/prepared/test.tsv of size (7464, 3) is read.
+[2024-01-07 18:38:12,785: INFO: data_mgmt]: The output matrix saved at artifacts/features/test.pkl of shape: (7464, 2502)
+[2024-01-07 18:38:12,911: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction completed!<<<<<
 
