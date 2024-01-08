@@ -78,3 +78,35 @@ TypeError: list indices must be integers or slices, not str
 [2024-01-07 21:31:29,260: INFO: common]: json file saved at: roc.json
 [2024-01-07 21:31:29,260: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
 
+[2024-01-07 21:40:18,275: INFO: stage_03_train]: 
+********************
+[2024-01-07 21:40:18,275: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2024-01-07 21:40:18,276: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 21:40:18,277: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 21:40:18,277: INFO: common]: created directory at: artifacts/model
+[2024-01-07 21:40:18,287: INFO: stage_03_train]: Input matrix size: (17536, 2502)
+[2024-01-07 21:40:18,287: INFO: stage_03_train]: X matrix size: (17536, 2500)
+[2024-01-07 21:40:18,287: INFO: stage_03_train]: Y matrix size: (17536,)
+[2024-01-07 21:40:21,127: INFO: stage_03_train]: Saved our model at artifacts/model/model.pkl
+[2024-01-07 21:40:21,127: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
+[2024-01-07 21:40:21,977: INFO: stage_04_evaluate]: 
+********************
+[2024-01-07 21:40:21,977: INFO: stage_04_evaluate]: >>>>> stage Evaluation started <<<<<
+[2024-01-07 21:40:21,978: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 21:40:21,979: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 21:40:22,165: INFO: common]: json file saved at: scores.json
+[2024-01-07 21:40:22,166: INFO: common]: json file saved at: prc.json
+[2024-01-07 21:40:22,166: INFO: common]: json file saved at: roc.json
+[2024-01-07 21:40:22,167: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
+
+[2024-01-07 22:02:51,155: INFO: stage_04_evaluate]: 
+********************
+[2024-01-07 22:02:51,155: INFO: stage_04_evaluate]: >>>>> stage Evaluation started <<<<<
+[2024-01-07 22:02:51,156: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 22:02:51,157: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 22:02:51,394: INFO: common]: json file saved at: scores.json
+[2024-01-07 22:02:51,401: INFO: common]: json file saved at: prc.json
+[2024-01-07 22:02:51,408: INFO: common]: json file saved at: roc.json
+[2024-01-07 22:02:51,408: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
+

@@ -38,7 +38,8 @@ def main(config_path, params_path):
     labels= np.squeeze(matrix[:,1].toarray())
     X= matrix[:,2:]
 
-    predictions= model.predict(X)
+    prediction_probabilities= model.predict_proba(X)
+    predictions= prediction_probabilities[:,1] #probability of the class label 1 (Python tag)
 
     PRC_json_path= config["plots"]["PRC"]
     ROC_json_path= config["plots"]["ROC"]
