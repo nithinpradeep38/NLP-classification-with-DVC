@@ -56,3 +56,25 @@
 [2024-01-07 19:41:49,420: INFO: stage_03_train]: Saved our model at artifacts/model/model.pkl
 [2024-01-07 19:41:49,421: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
 
+[2024-01-07 21:25:26,521: INFO: stage_04_evaluate]: 
+********************
+[2024-01-07 21:25:26,521: INFO: stage_04_evaluate]: >>>>> stage Evaluation started <<<<<
+[2024-01-07 21:25:26,523: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 21:25:26,524: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 21:25:26,754: ERROR: stage_04_evaluate]: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_04_evaluate.py", line 84, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "/Users/nithinpradeep/Projects/NLP-classification-with-DVC/src/stage_04_evaluate.py", line 43, in main
+    PRC_json_path= config["plots"]["PRC"]
+TypeError: list indices must be integers or slices, not str
+[2024-01-07 21:31:29,025: INFO: stage_04_evaluate]: 
+********************
+[2024-01-07 21:31:29,025: INFO: stage_04_evaluate]: >>>>> stage Evaluation started <<<<<
+[2024-01-07 21:31:29,026: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 21:31:29,027: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 21:31:29,258: INFO: common]: json file saved at: scores.json
+[2024-01-07 21:31:29,259: INFO: common]: json file saved at: prc.json
+[2024-01-07 21:31:29,260: INFO: common]: json file saved at: roc.json
+[2024-01-07 21:31:29,260: INFO: stage_04_evaluate]: >>>>> stage Evaluation completed!<<<<<
+
