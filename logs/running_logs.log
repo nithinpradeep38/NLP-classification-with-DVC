@@ -12,3 +12,23 @@
 [2024-01-07 18:38:12,785: INFO: data_mgmt]: The output matrix saved at artifacts/features/test.pkl of shape: (7464, 2502)
 [2024-01-07 18:38:12,911: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction completed!<<<<<
 
+[2024-01-07 18:56:13,067: INFO: stage_01_prepare_data]: 
+********************
+[2024-01-07 18:56:13,067: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data started <<<<<
+[2024-01-07 18:56:13,069: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 18:56:13,069: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 18:56:13,069: INFO: common]: created directory at: artifacts/prepared
+[2024-01-07 18:56:14,396: INFO: stage_01_prepare_data]: >>>>> stage Prepare_Data completed!<<<<<
+
+[2024-01-07 18:56:15,192: INFO: stage_02_feature_extraction]: 
+********************
+[2024-01-07 18:56:15,193: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction started <<<<<
+[2024-01-07 18:56:15,194: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-01-07 18:56:15,194: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-01-07 18:56:15,195: INFO: common]: created directory at: artifacts/features
+[2024-01-07 18:56:15,348: INFO: common]: The input data frame artifacts/prepared/train.tsv of size (17536, 3) is read.
+[2024-01-07 18:56:25,996: INFO: data_mgmt]: The output matrix saved at artifacts/features/train.pkl of shape: (17536, 2502)
+[2024-01-07 18:56:26,068: INFO: common]: The input data frame artifacts/prepared/test.tsv of size (7464, 3) is read.
+[2024-01-07 18:56:27,987: INFO: data_mgmt]: The output matrix saved at artifacts/features/test.pkl of shape: (7464, 2502)
+[2024-01-07 18:56:28,137: INFO: stage_02_feature_extraction]: >>>>> stage Feature_extraction completed!<<<<<
+
